@@ -1,0 +1,81 @@
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .row {
+    margin-top: 15px;
+  }
+  
+  /* Input Styling */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Select Dropdown Styling */
+  select.form-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+
+  
+  .wish-list li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Checkbox Styling */
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  /* Form Check Styling */
+  .form-check {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Label Styling */
+  .form-check-label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Empty List Message Styling */
+  .row div {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Additional Utilities */
+  .align-item-center {
+    align-items: center;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
