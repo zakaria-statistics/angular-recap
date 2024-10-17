@@ -1,20 +1,17 @@
-import { Component } from '@angular/core';
-import { WishItem } from '../shared/models/wishItem';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
+  constructor() {}
 
-  items:WishItem[] = [
-    new WishItem('Learn Angular'),
-    new WishItem('Get coffee', true),
-    new WishItem('Find grass that cuts itself')
-  ];
-
-
-  filter:any;
+  ngOnInit(): void {
+    
+  }
+  
 
 }
